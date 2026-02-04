@@ -1,2 +1,3 @@
 #!/bin/bash
+# shows network listening sockets with PID
 netstat -lp
