@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/usr/bin/env bash
 # shows network listening sockets with PID
 
 netstat -lp
