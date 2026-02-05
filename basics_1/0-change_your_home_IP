@@ -3,6 +3,7 @@
 #localhost
 tmpfile=$(mktemp)
 sed 's/127\.0\.0\.1/127.0.0.2/' /etc/hosts > "$tmpfile"
+cat "$tmpfile" > /etc/hosts
 rm -f "$tmpfile"
 #facebook
 tmpfile=$(mktemp)
